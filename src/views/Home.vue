@@ -36,17 +36,17 @@ export default {
   }
 
   .welcome-container {
-    width: 80%;
+    width: 60%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font-size: 40px;
 
   }
 
   .welcome_message {
-    width: 40%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     font-weight: 700;
@@ -61,7 +61,7 @@ export default {
   }
 
   .photos {
-    width: 47%;
+    width: 35%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
