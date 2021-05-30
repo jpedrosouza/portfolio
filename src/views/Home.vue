@@ -2,75 +2,110 @@
   <div class="home">
     <div class="welcome-container">
       <div class="welcome_message">
-         <span class="message_welcome">Bem-vindo <span class="non_negrite">ao</span></span>
-         <span class="message_below">nosso portfolio</span>
+        <span class="message_welcome"
+          >Bem-vindo <span class="non_negrite">ao</span></span
+        >
+        <span class="message_below">nosso portfolio</span>
       </div>
       <div class="photos">
-        <img class="author_image" src="../assets/images/pedro.png" alt="Imagem de Pedro Henrique">
-        <img class="author_image" src="../assets/images/joao.png" alt="Imagem de João Pedro">
-        <img class="author_image" src="../assets/images/henrique.png" alt="Imagem de Henrique">
-        <img class="author_image" src="../assets/images/default_image.png" alt="Imagem default">
-        <img class="author_image" src="../assets/images/default_image.png" alt="Imagem default">
-        <img class="author_image" src="../assets/images/default_image.png" alt="Imagem default">
+        <img
+          class="author_image"
+          src="../assets/images/pedro.png"
+          alt="Imagem de Pedro Henrique"
+        />
+        <img
+          class="author_image"
+          src="../assets/images/joao.png"
+          alt="Imagem de João Pedro"
+        />
+        <img
+          class="author_image"
+          src="../assets/images/henrique.png"
+          alt="Imagem de Henrique"
+        />
+        <img
+          class="author_image"
+          src="../assets/images/default_image.png"
+          alt="Imagem default"
+        />
+        <img
+          class="author_image"
+          src="../assets/images/default_image.png"
+          alt="Imagem default"
+        />
+        <img
+          class="author_image"
+          src="../assets/images/default_image.png"
+          alt="Imagem default"
+        />
       </div>
     </div>
+
+    <Slider class="projects_slider" />
+
   </div>
 </template>
 
 <script>
+import Slider from "../components/Slider";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    
-  }
-}
+    Slider,
+  },
+};
 </script>
 
 <style>
-    .home {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 
-  .welcome-container {
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 40px;
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  }
+.welcome-container {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 40px;
+}
 
-  .welcome_message {
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    font-weight: 700;
-  }
+.welcome_message {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+}
 
-  .non_negrite {
-    font-weight: 300;
-  }
+.non_negrite {
+  font-weight: 300;
+}
 
-  .message_below {
-    font-weight: 300;
-  }
+.message_below {
+  font-weight: 300;
+}
 
-  .photos {
-    width: 35%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
+.photos {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
-  .author_image {
-    width: 100px;
-    height: 100px;
-    padding-bottom: 10px;
-  }
+.author_image {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 10px;
+}
+
+.projects_slider {
+  padding-top: 30px;
+}
+
 </style>
