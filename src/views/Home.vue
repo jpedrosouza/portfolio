@@ -27,12 +27,12 @@
         />
         <img
           class="author_image"
-          src="../assets/images/default_image.png"
+          src="../assets/images/vinicius.jpg"
           alt="Imagem default"
         />
         <img
           class="author_image"
-          src="../assets/images/default_image.png"
+          src="../assets/images/emanuel.jpg"
           alt="Imagem default"
         />
         <img
@@ -59,6 +59,146 @@
         Univali, cursando Análise e Desenvolvimento de Sistemas. Reunimos nesse
         portfólio alguns de nossos projetos.
       </p>
+    </div>
+
+    <div class="contact">
+      <span class="contact_title">
+        Contato
+      </span>
+
+      <div class="users_contacts">
+        <div class="contact_container">
+          <div class="image_buttons">
+            <img
+              class="author_image"
+              src="../assets/images/pedro.png"
+              alt=""
+              srcset=""
+            />
+            <div class="buttons">
+              <img
+                class="github_social_icon"
+                src="../assets/icons/github.svg"
+                alt="GitHub"
+              />
+            </div>
+          </div>
+          <div class="email">
+            <img src="../assets/icons/mail.svg" alt="" srcset="" />
+            <span>psouza.1650@gmail.com</span>
+          </div>
+        </div>
+
+        <div class="contact_container">
+          <div class="image_buttons">
+            <img
+              class="author_image"
+              src="../assets/images/joao.png"
+              alt=""
+              srcset=""
+            />
+            <div class="buttons">
+              <img
+                class="github_social_icon"
+                src="../assets/icons/github.svg"
+                alt="GitHub"
+              />
+            </div>
+          </div>
+          <div class="email">
+            <img src="../assets/icons/mail.svg" alt="" srcset="" />
+            <span>jsouza.1650@gmail.com</span>
+          </div>
+        </div>
+
+        <div class="contact_container">
+          <div class="image_buttons">
+            <img
+              class="author_image"
+              src="../assets/images/henrique.png"
+              alt=""
+              srcset=""
+            />
+            <div class="buttons">
+              <img
+                class="github_social_icon"
+                src="../assets/icons/github.svg"
+                alt="GitHub"
+              />
+            </div>
+          </div>
+          <div class="email">
+            <img src="../assets/icons/mail.svg" alt="" srcset="" />
+            <span>Paulo.Henrique.tjk@gmail.com</span>
+          </div>
+        </div>
+
+        <div class="contact_container">
+          <div class="image_buttons">
+            <img
+              class="author_image"
+              src="../assets/images/emanuel.jpg"
+              alt=""
+              srcset=""
+            />
+            <div class="buttons">
+              <img
+                class="github_social_icon"
+                src="../assets/icons/github.svg"
+                alt="GitHub"
+              />
+            </div>
+          </div>
+          <div class="email">
+            <img src="../assets/icons/mail.svg" alt="" srcset="" />
+            <span>emanuelricardokichel@hotmail.com</span>
+          </div>
+        </div>
+
+        <div class="contact_container">
+          <div class="image_buttons">
+            <img
+              class="author_image"
+              src="../assets/images/vinicius.jpg"
+              alt=""
+              srcset=""
+            />
+            <div class="buttons">
+              <img
+                class="github_social_icon"
+                src="../assets/icons/github.svg"
+                alt="GitHub"
+              />
+            </div>
+          </div>
+          <div class="email">
+            <img src="../assets/icons/mail.svg" alt="" srcset="" />
+            <span>viniaviana@gmail.com</span>
+          </div>
+        </div>
+
+        <div class="contact_container">
+          <div class="image_buttons">
+            <img
+              class="author_image"
+              src="../assets/images/pedro.png"
+              alt=""
+              srcset=""
+            />
+            <div class="buttons">
+              <img
+                class="github_social_icon"
+                src="../assets/icons/github.svg"
+                alt="GitHub"
+              />
+            </div>
+          </div>
+          <div class="email">
+            <img src="../assets/icons/mail.svg" alt="" srcset="" />
+            <span>psouza.1650@gmail.com</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -125,6 +265,7 @@ export default {
 }
 
 .projects_slider {
+  width: 50%;
   padding-top: 30px;
 }
 
@@ -149,5 +290,53 @@ export default {
 .about_text {
   text-align: center;
   font-size: 18px;
+}
+
+.contact {
+  width: 90%;
+  align-items: center;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.users_contacts {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact_container {
+  width: 280px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_title {
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.image_buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+}
+
+.github_social_icon {
+  padding-left: 20px;
+}
+
+.email {
+  width: 230px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 </style>
