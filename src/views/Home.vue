@@ -37,7 +37,7 @@
         />
         <img
           class="author_image"
-          src="../assets/images/default_image.png"
+          src="../assets/images/mauricio.png"
           alt="Imagem default"
         />
       </div>
@@ -181,7 +181,7 @@
           <div class="image_buttons">
             <img
               class="author_image"
-              src="../assets/images/pedro.png"
+              src="../assets/images/mauricio.png"
               alt=""
               srcset=""
             />
@@ -195,7 +195,7 @@
           </div>
           <div class="email">
             <img src="../assets/icons/mail.svg" alt="" srcset="" />
-            <span>psouza.1650@gmail.com</span>
+            <span>mauriciocasanova@yahoo.com.br</span>
           </div>
         </div>
       </div>
